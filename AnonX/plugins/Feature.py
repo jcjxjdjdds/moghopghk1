@@ -95,7 +95,7 @@ async def mmmezat(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "★⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⚡", url=f"https://t.me/pp_g3"),                        
+                        "★⌞ 𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝⚡", url=f"https://t.me/T4_Mohamed"),                        
                  ],[
                 InlineKeyboardButton(
                         "close", callback_data="close"),
