@@ -53,7 +53,7 @@ RESTART_COMMAND : ["restart", "ريستارت", "ريلود"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo", "رفع ثانوي"]
+ADDSUDO_COMMAND : ["addsudo", "رفع ثانوي","ر ثانوي"]
 DELSUDO_COMMAND : ["delsudo", "ت ثانوي"]
 SUDOUSERS_COMMAND : ["sudolist", "الثانويين"]
 
