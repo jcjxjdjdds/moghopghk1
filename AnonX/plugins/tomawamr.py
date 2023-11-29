@@ -120,9 +120,6 @@ async def c_usage(_, callback_query: CallbackQuery):
 ★¦ رفع ثانوي
 ★¦ تنزيل ثانوي
 ★¦ قائمة الثانويين
-★¦ رفع ادمن
-★¦ تنزيل ادمن
-★¦ قائمة الادمن
 ★¦ حظر
 ★¦ الغاء الحظر
 ★¦ المحظورين
@@ -132,7 +129,6 @@ async def c_usage(_, callback_query: CallbackQuery):
 ★¦ اونلاين
 ★¦ اذاعه
 ★¦ تحديث
-★¦ logger
 ★¦ ريلود
 ★¦ وقف
 ★¦ كمل
@@ -143,13 +139,9 @@ async def c_usage(_, callback_query: CallbackQuery):
 ★¦ @all
 ★¦ all stop
 ★¦ يوتيوب / تنزيل
-★¦ playing
-★¦ القائمه
-★¦ حذف القائمه
 ★¦ تحديث
 ★¦ الاحصائيات
 ★¦ لايف
-★¦ مساعده
 ★¦ الاعدادت
 ★¦ بينج
 
