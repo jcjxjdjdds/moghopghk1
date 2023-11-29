@@ -55,7 +55,7 @@ RESTART_COMMAND : ["restart", "ريستارت", "ريلود"]
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo", "رفع ثانوي","ر ثانوي"]
 DELSUDO_COMMAND : ["delsudo", "ت ثانوي"]
-SUDOUSERS_COMMAND : ["sudolist", "الثانويين"]
+SUDOUSERS_COMMAND : ["sudolist", "الثانويين","ث"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast", "ذيع", "اذاعه", "اذاعة"]
