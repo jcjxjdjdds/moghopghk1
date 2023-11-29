@@ -21,7 +21,7 @@ from pyrogram.errors import MessageNotModified
 )
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4243b80b89cb8f9ffb4a4.jpg",
+        photo=f"https://telegra.ph/file/2794b47e678287da07136.jpg",
         caption=f"""**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**\nمرحبا بك عزيزي {message.from_user.mention}\nانا بوت الذكاء الاصطناعي الخاص بسورس cr \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
