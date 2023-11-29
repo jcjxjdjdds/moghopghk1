@@ -15,12 +15,12 @@
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
         "value": "24667674",
-        "required": true
+        "required": false
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
         "value": "8a39a22593b9d413c1450322b7c3e5ef",
-        "required": true
+        "required": false
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
@@ -40,7 +40,7 @@
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
         "value": "2095495680",
-        "required": true
+        "required": false
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
@@ -60,7 +60,7 @@
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "-1001871388107",
-        "required": true
+        "required": false
       }
     },
     "buildpacks": [
