@@ -91,7 +91,7 @@ STATS_IMG_URL = "https://telegra.ph/file/e15b16465f42229456e72.jpg"
 
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/4243b80b89cb8f9ffb4a4.jpg"
 
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/4243b80b89cb8f9ffb4a4.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/418130ff759f091f8b662.jpg"
 
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 
