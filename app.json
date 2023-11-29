@@ -14,12 +14,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "24667674",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "8a39a22593b9d413c1450322b7c3e5ef",
         "required": true
       },
       "BOT_TOKEN": {
@@ -34,12 +34,12 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "cr ダ ᴍᴜsɪᴄ",
+        "value": "ᴍᴜsɪᴄ",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "2095495680",
         "required": true
       },
       "STRING_SESSION": {
@@ -59,7 +59,7 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
+        "value": "-1001871388107",
         "required": true
       }
     },
