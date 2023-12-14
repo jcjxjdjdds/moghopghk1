@@ -305,7 +305,7 @@ async def kaompj(client, message):
 async def fdsa(client, message):
   await message.reply_text(f"وعليكم السلام")
 
-@app.on_message(command("عامل اي","عامل ايه"))
+@app.on_message(command("عامل اي"))
 async def fdsa(client, message):
   await message.reply_text(f"❤️الحمد لله وانت يا قلبي ")
 
