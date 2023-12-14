@@ -303,7 +303,7 @@ async def kaompj(client, message):
 
 @app.on_message(command("السلام عليكم"))
 async def fdsa(client, message):
-  await message.reply_text(f"{message.reply_to_message.from_user.mention}\n\n وعليكم السلام يا  😂♥️")
+  await message.reply_text(f"وعليكم السلام")
 
 
 @app.on_message(
