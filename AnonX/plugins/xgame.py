@@ -373,6 +373,10 @@ async def fdsa(client, message):
 async def fdsa(client, message):
   await message.reply_text(f" هآي تع اشب شااي • 😹💔")
 
+@app.on_message(command("قتل"))
+async def fdsa(client, message):
+  await message.reply_text(f"انت عايز تلبسني جريمة ولا اي يسطا 😹")
+    
 @app.on_message(command("اي"))
 async def fdsa(client, message):
   await message.reply_text(f"جتك اوهه م سامع ولا ايي 😹👻")
