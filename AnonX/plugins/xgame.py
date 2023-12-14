@@ -321,10 +321,29 @@ async def fdsa(client, message):
 async def fdsa(client, message):
   await message.reply_text(f"انا محترم مش بتف علي حد")
 
-@app.on_message(command("قتل"))
+@app.on_message(command("بف"))
 async def fdsa(client, message):
-  await message.reply_text(f"انت عايز تلبسني جريمة يسطا ولا اي 😂")
-    
+  await message.reply_text(f"خدوني معاكم برايفت والنبي 🥺💔")
+
+@app.on_message(command("🙄"))
+async def fdsa(client, message):
+  await message.reply_text(f"نزل عينك تحت كدا علشان هتخاد علي قفاك 😒❤️")
+
+@app.on_message(command("سلام"))
+async def fdsa(client, message):
+  await message.reply_text(f"مع الف سلامه يقلبي متجيش تاني 😹💔🎶")
+
+@app.on_message(command("نعم"))
+async def fdsa(client, message):
+  await message.reply_text(f"نعم الله عليك 🌚❤️")
+
+@app.on_message(command("صلي علي النبي"))
+async def fdsa(client, message):
+  await message.reply_text(f"عليه الصلاه والسلام 🌝💛")
+
+@app.on_message(command("😂"))
+async def fdsa(client, message):
+  await message.reply_text(f"اضحكتك عثل زيكك ينوحيي 🌝❤️")
 @app.on_message(
     command(["الالعاب","العاب"])
     & ~filters.edited
