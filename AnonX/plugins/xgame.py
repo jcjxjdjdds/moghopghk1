@@ -300,7 +300,11 @@ async def llok(client, message):
 @app.on_message(command("تنزيل حرامي"))
 async def kaompj(client, message):
   await message.reply_text(f"تم تنزيل العضو\n│ \n└ʙʏ : {message.reply_to_message.from_user.mention}\n\n حرامي ربنا تاب عليه😂😔")
-  
+
+@app.on_message(command("السلام عليكم"))
+async def fdsa(client, message):
+  await message.reply_text(f"{message.reply_to_message.from_user.mention}\n\n وعليكم السلام يا  😂♥️")
+
 
 @app.on_message(
     command(["الالعاب","العاب"])
