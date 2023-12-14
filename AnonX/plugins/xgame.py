@@ -305,7 +305,26 @@ async def kaompj(client, message):
 async def fdsa(client, message):
   await message.reply_text(f"وعليكم السلام")
 
+@app.on_message(command("عامل اي","عامل ايه"))
+async def fdsa(client, message):
+  await message.reply_text(f"❤️الحمد لله وانت يا قلبي ")
 
+@app.on_message(command("طيب"))
+async def fdsa(client, message):
+  await message.reply_text(f"😂فرح خلتك قريب ")
+
+@app.on_message(command("منور"))
+async def fdsa(client, message):
+  await message.reply_text(f"❤️دا نورك يباشا ")
+
+@app.on_message(command("تف"))
+async def fdsa(client, message):
+  await message.reply_text(f"انا محترم مش بتف علي حد")
+
+@app.on_message(command("قتل"))
+async def fdsa(client, message):
+  await message.reply_text(f"😂انت عايز تلبسني جريمة يسطا ولا اي ")
+    
 @app.on_message(
     command(["الالعاب","العاب"])
     & ~filters.edited
