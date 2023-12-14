@@ -344,6 +344,38 @@ async def fdsa(client, message):
 @app.on_message(command("😂"))
 async def fdsa(client, message):
   await message.reply_text(f"اضحكتك عثل زيكك ينوحيي 🌝❤️")
+
+@app.on_message(command("😭"))
+async def fdsa(client, message):
+  await message.reply_text(f"بتعيط تيب لي طيب 😥")
+
+@app.on_message(command("😒"))
+async def fdsa(client, message):
+  await message.reply_text(f"عدل وشك ونت بتكلمني 😒🙄")
+
+@app.on_message(command("الحمدلله"))
+async def fdsa(client, message):
+  await message.reply_text(f"دايما ياحبيبي 🌝❤️")
+
+@app.on_message(command("اه"))
+async def fdsa(client, message):
+  await message.reply_text(f"اه اي يا قدع عيب 😹💔")
+
+@app.on_message(command("حصل"))
+async def fdsa(client, message):
+  await message.reply_text(f"خخخ امال 😹")
+
+@app.on_message(command("تع"))
+async def fdsa(client, message):
+  await message.reply_text(f"لا عيب بتكسف 😹💔")
+
+@app.on_message(command("هاي"))
+async def fdsa(client, message):
+  await message.reply_text(f" هآي تع اشب شااي • 😹💔")
+
+@app.on_message(command("اي"))
+async def fdsa(client, message):
+  await message.reply_text(f"جتك اوهه م سامع ولا ايي 😹👻")
 @app.on_message(
     command(["الالعاب","العاب"])
     & ~filters.edited
