@@ -60,7 +60,7 @@ async def huhh(client: Client, message: Message):
     & ~filters.edited
 )
 async def yas(client, message):
-    usr = await client.get_chat("T4_Mohamed")
+    usr = await client.get_chat("V_O_L_C_A")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺\n\n‍ ¦ᦔꫀꪜ :{name}\n ¦ꪊ𝘴ꫀ𝘳 :@{usr.username}\n ¦Ꭵժ :`{usr.id}`\n ¦ႦᎥ᥆ :{usr.bio}\n\n**⩹━★⊷━⌞  𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙰𝚁𝙺 ⌝━⊶★━⩺**", 
